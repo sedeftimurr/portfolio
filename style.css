@@ -2,23 +2,19 @@ body {
     font-family: Arial, sans-serif;
     background-color: #edeff0;
 }
-
 h2 {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
 #contact ul {
     list-style-type: none;
     padding: 0;
 }
-
 #contact li {
     margin-bottom: 5%;
     display: flex;
     align-items: center;
 }
-
 #contact img {
     margin-right: 5%;
 }
@@ -36,13 +32,11 @@ h2 {
     left: 2%; 
     border: 1px solid #ccc;
     border-radius: 10px; 
-    
 }
 
 #about a{
     color: #F85046;
 }
-
 #about .profile-img{
     width: 75%;
     height: 75%;
@@ -50,7 +44,6 @@ h2 {
     display:block;
     margin: 0 auto 20px;
 }
-
 #projects{
     background-color: #FFF6E9; 
     color: black;
@@ -72,8 +65,41 @@ h2 {
     width: 75%;
     margin: 2%;
 }
-@media only screen and (min-width:150px) and (max-width:576px){
-    img{
-        width:100%;
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    #about {
+        width: 90%;
+        height: auto;
+        position: static;
+        margin-bottom: 10%;
+    }
+    #about .profile-img {
+        width: 50%;
+        height: auto;
+    }
+    #projects {
+        width: 90%;
+        margin: 10% auto;
+        right: auto;
+    }
+    #projects .ilkproje, 
+    #projects .ikincidenemesi {
+        width: 100%;
+    }
+    h2 {
+        font-size: 1.5em;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #contact img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    #navbar {
+        padding: 10px;
+        text-align: center;
     }
 }
